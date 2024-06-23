@@ -1,0 +1,64 @@
+@use '../custom' as *;
+
+.main-heading {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.card-custom {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 2px;
+
+    p {
+        span {
+            color: red;
+        }
+    }
+}
+
+.card-hover {
+    ul {
+        li {
+            a:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+.text-size {
+    font-size: 14px;
+}
+
+.indecator-btns {
+    ul {
+        li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 10px;
+
+            i {
+                font-size: 40px;
+                color: $secondary;
+
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .md-custom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1;
+        padding-left: 1;
+        font-size: 12px;
+
+    }
+
+}
+

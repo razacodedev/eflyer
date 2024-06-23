@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+.indicator-item
+{
+    i:hover
+    {
+        color: $danger;
+    }
+}

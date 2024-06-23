@@ -1,0 +1,16 @@
+
+@use '../scss/custom';
+
+//IMPORT ALL THE COMPONENTS
+@use '../scss/components/button';
+@use '../scss/components/cards';
+@use '../scss/components/mixins';
+@use '../scss/components/slider';
+@use '../scss/components/typography';
+@use '../scss/components/background';
+
+//IMPORT ALL THE SECTIONS 
+@use '../scss/sections/footer';
+@use '../scss/sections/get-started';
+@use '../scss/sections/main-section';
+@use '../scss/sections/navbar';
