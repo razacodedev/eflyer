@@ -1,33 +1,36 @@
 # eFlyer
 
-A straightforward web app that displays a clean product grid with categories like Electronics, Men’s Wear, and Jewelry.
+A simple e-commerce front-end project built using **HTML**, **SCSS**, and **JavaScript**.  
+It displays a clean product grid layout with categories and a responsive design.
 
-**Live Demo:** [Check it here](https://razacodedev.github.io/eflyer/)
+**Live Demo:** [Check it out here](https://razacodedev.github.io/eflyer/)
 
 ---
 
 ## Features
-- Simple product grid layout with categories.
-- Basic interactive elements like "Buy Now" buttons.
-- Built with **HTML**, **CSS**, and **JavaScript**.
+- Responsive product grid layout
+- Built with **HTML5** and **SCSS**
+- Interactive UI using **JavaScript**
+- Clean and modern design
 
 ---
 
 ## How to Use
 1. Visit the [Live Demo](https://razacodedev.github.io/eflyer/).
-2. Browse categories and click "Buy Now" on products (UI-only interactions).
+2. Browse products and explore different categories.
+3. UI is for practice purposes only; no backend integration.
 
 ---
 
 ## Clone the Repository
 
-To view or run the project locally:
+To run this project locally:
 
 ```bash
 # Clone the repository
 git clone https://github.com/razacodedev/eflyer.git
 
-# Navigate to the project folder
+# Navigate to project folder
 cd eflyer
 
 # Open index.html in your browser
